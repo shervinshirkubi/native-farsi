@@ -4,6 +4,8 @@ A [Claude](https://claude.ai) skill for writing natural, authentic Persian (Fars
 
 **[فارسی ⬇️](#فارسی)**
 
+![Before/after: three sentences rewritten from translated-sounding Persian to natural Persian](docs/before-after.png)
+
 ## The problem
 
 Language models writing Persian usually carry over English syntax with Persian
