@@ -27,6 +27,16 @@ with English.
 - **Right-to-left documents**: Word, PowerPoint, PDF, HTML (with automated verify scripts)
 - **Every rule is graded**: 🔴 absolute · 🟡 register-dependent · 🔵 diagnostic (a signal, not a verdict)
 
+## Two more examples the image can't show
+
+**Discourse layer** (a whole paragraph's reference chain, not a single sentence):
+> ❌ "حالا اینو ببر بیرون از دوجو." — the pronoun has nothing to point back to.
+> ✅ "حالا همین الگو رو می‌شه برد بیرون دوجو." — the referent is named.
+
+**Right-to-left document layout** (not text — page structure): a Word file with
+mirrored alignment, Persian digits in numbered lists, no font fallback to
+DejaVu, verified automatically by `scripts/verify_docx.py` before delivery.
+
 ## Install
 
 Two ways:
@@ -103,6 +113,16 @@ see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Fonts under SIL OFL 1.1.
 - **سنجه‌ی کمّیِ ریتم**: واریانسِ طولِ جمله رو اندازه می‌گیره
 - **اسنادِ راست‌چین**: Word، PowerPoint، PDF، HTML (با اسکریپتِ وریفایِ خودکار)
 - **هر قاعده درجه‌بندی شده**: 🔴 مطلق · 🟡 وابسته‌به‌رجیستر · 🔵 تشخیصی (نه حکم)
+
+### دو مثالِ دیگه که تصویر نمی‌تونه نشون بده
+
+**لایه‌ی گفتمان** (زنجیره‌ی ارجاعِ یه پاراگراف، نه یه جمله):
+> ❌ «حالا اینو ببر بیرون از دوجو.» (ضمیر به هیچ اسمی برنمی‌گرده)
+> ✅ «حالا همین الگو رو می‌شه برد بیرون دوجو.» (مرجع مشخصه)
+
+**چیدمانِ راست‌چینِ سند** (نه متن، خودِ صفحه‌آرایی): یه فایلِ Word با تراز آینه‌ای،
+اعدادِ فارسی تو لیستِ شماره‌دار، بدونِ افتادن به فونتِ fallback، که خودکار با
+`scripts/verify_docx.py` تأیید می‌شه قبلِ تحویل.
 
 ### نصب
 
